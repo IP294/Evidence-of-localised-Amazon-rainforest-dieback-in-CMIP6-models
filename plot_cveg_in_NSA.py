@@ -4,13 +4,7 @@ Created on Sat Oct 16 19:10:54 2021
 
 @author: impy2
 
-
-pseudocode for the amount of cveg in the NSA region over time
-- get the mat file for the cveg for each model
-- mask out the NSA region
-- for each point in time add up the total cveg in the NSA region
-- plot this against time and see what happens
-
+Plot the change in cveg in the NSA region
 """
 
 from pathlib import Path
@@ -308,11 +302,5 @@ fig.text(0.85, 0.79, '(c)', ha='center')
 plt.show()
         
 # savepath = 'C:/Users/impy2/OneDrive/Documents/Uni Yr3/Tipping Points Project/Figures/Paper/Figure 2/'
-# filename = savepath+'cveg_in_NSA_V7.svg'
+# filename = savepath+'cveg_in_NSA.svg'
 # fig.savefig(filename, format = 'svg', dpi=300, bbox_inches='tight') 
-
-    
-    
-    
-
-
