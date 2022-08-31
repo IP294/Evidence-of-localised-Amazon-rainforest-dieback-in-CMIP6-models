@@ -14,5 +14,3 @@ The scripts in this repository take global cveg and tas data from CMIP6 models a
 
 ## Authors and Acknowledgment 
 Isobel Parry, Paul Ritchie and Peter Cox
-
-## Liscence 
